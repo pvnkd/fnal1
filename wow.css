@@ -14,7 +14,7 @@ body {background-color: #f5d4d4;}
 }
 
 .header { grid-area: header; 
-  padding: 15px;
+  padding: 5px;
   text-align: left;
   text-align: top;
   background: #f5f2cd;
