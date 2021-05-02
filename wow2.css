@@ -1,0 +1,69 @@
+body {background-color: #f5d4d4;}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 10% 50px 1fr 1fr;
+  gap: 5px 5px;
+  grid-template-areas:
+    "header header header"
+    "border border border"
+    "biophoto biophoto bio"
+    "biophoto biophoto bio";
+}
+
+.header { grid-area: header; 
+  padding: 5px;
+  text-align: left;
+  text-align: top;
+  background: #f5f2cd;
+  color: #ef7a7a;
+  font-size: 25px;
+}
+
+.border { 
+}
+
+.biophoto { grid-area: biophoto; 
+  padding: 5px;
+  background: #f5f2cd;
+  color: #ef7a7a;
+float: left; 
+    margin: 5px;
+}
+.bio { grid-area: bio;   
+padding: 5px;
+vertical-align:top;
+  text-align: left;
+  text-align: top;
+  background: #f5f2cd;
+  color: #ef7a7a;
+  font-size: 20px;
+}
+
+
+
+h1 {
+font-family: Verdana, Geneva, sans-serif;
+font-size: 75px;
+align; left
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #ef7a7a;
+font-weight: 700;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: uppercase;
+}
+
+h2 {
+  display: block;
+font-size: 55px;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: italic;
+}
